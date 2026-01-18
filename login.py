@@ -6,10 +6,10 @@ while(a not in db.keys()):
     a=input("username:")
 b=input("password:")
 while not(db[a]==b):
-    print("wrong password")
+    print("Wrong Password")
     b=input("password:")
 
-print("welcome ",end=" "+a+"\n")
+print("Hello ",end=" "+a+"\n")
 print("date:")
 print(date.today())
 
