@@ -12,4 +12,3 @@ while not(db[a]==b):
 print("welcome ",end=" "+a+"\n")
 print("date:")
 print(date.today())
-
